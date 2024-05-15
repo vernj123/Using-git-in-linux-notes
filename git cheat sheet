@@ -1,0 +1,36 @@
+GIT NOTES
+
+GIT is a version control utility
+
+
+Create git repository = git init new repository name
+
+ls -la = to list git directory
+
+list contents of the directory = ls -l .git
+
+create a text (or any type of file) in the directory = nano, vim, xdg (xdg is the linux default note reader writer similar to microsoft text) <new name of file>
+
+To get status of the repository = git status
+ **(you must be inside repsitory directory for this to work) once executed if anything is changed it will let you know.**
+**A new or changed file would be indicated in red and be indicated as untracked file becasue ithas not been commited. Meaning the file may be saved but it's not officialy part of the repository. You have to tell git manually that you want that file to be a part of version control.**
+
+To add file to commit = git add <filename>  
+**Once the file is added to the commit the status will be different the file color will now be green as opposed to red.Also instead of showing "untracked files" it will show; "changes to be commitied"**
+
+Steps to take before finalizing commit
+Enter information about the person working on the code using git config
+
+to add user info = git config --global user.name <"name here">
+..............................--global user.email <emailaddy@whatever.com>
+
+**the above lists the name and email address of the person working on the repository in the system**
+
+Finalizing commit = git commit -m <"message about commit">
+**If it's the first time the file is in version control a good thing to do is start message above with "initial commit"**
+
+**If successful you will see "On branch master, nothing to commit working tree clean after running "git status"**
+
+
+
+
