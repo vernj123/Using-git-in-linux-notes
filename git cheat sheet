@@ -1,5 +1,6 @@
 GIT NOTES
 
+***DONT FORGET TO COMPLETE COMMIT AFTER EACH CHANGE TO THIS OR ANY FILE!!***
 GIT is a version control utility
 
 
@@ -39,3 +40,4 @@ Switch to new or any branch = git checkout <name of branch>
 
 Delete branch = git branch --delete <name of branch you want to delete>
 
+Revert back to previos commit = git log --oneline
