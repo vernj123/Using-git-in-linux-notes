@@ -40,4 +40,9 @@ Switch to new or any branch = git checkout <name of branch>
 
 Delete branch = git branch --delete <name of branch you want to delete>
 
-Revert back to previos commit = git log --oneline
+Reverting back to previos commit:
+1) Check lines that will include hash (alpha numerics at the start of the line) = git log --oneline
+2) Select commit to revert = git revert <hash you want removed>
+**will show hash of reverted commit, then you can add message**
+
+Cloning
