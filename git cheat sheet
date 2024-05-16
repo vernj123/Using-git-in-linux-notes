@@ -31,6 +31,11 @@ Finalizing commit = git commit -m <"message about commit">
 
 **If successful you will see "On branch master, nothing to commit working tree clean after running "git status"**
 
+Create a new branch = git branch <name of new branch>
+
+list branches = git branch
+ 
+Switch to new or any branch = git checkout <name of branch> 
 
 
 
