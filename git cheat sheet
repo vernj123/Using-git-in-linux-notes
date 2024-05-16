@@ -37,5 +37,5 @@ list branches = git branch
  
 Switch to new or any branch = git checkout <name of branch> 
 
-
+Delete branch = git branch --delete <name of branch you want to delete>
 
