@@ -25,7 +25,9 @@ Enter information about the person working on the code using git config
 to add user info = git config --global user.name <"name here">
 ..............................--global user.email <emailaddy@whatever.com>
 
-**the above lists the name and email address of the person working on the repository in the system**
+**The above lists the name and email address of the person working on the repository in the system**
+**Check the git config file to see info of last person who worked on the file (user,email)=
+git config --list
 
 Finalizing commit = git commit -m <"message about commit">
 **If it's the first time the file is in version control a good thing to do is start message above with "initial commit"**
