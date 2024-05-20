@@ -3,7 +3,6 @@ GIT NOTES
 ***DONT FORGET TO COMPLETE COMMIT AFTER EACH CHANGE TO THIS OR ANY FILE!!***
 GIT is a version control utility
 
-
 Create git repository = git init new repository name
 
 List git directory and show changes = ls -l
