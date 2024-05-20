@@ -10,13 +10,13 @@ ls -la = to list git directory
 
 list contents of the directory = ls -l .git
 
-create a text (or any type of file) in the directory = nano, vim, xdg (xdg is the linux default note reader writer similar to microsoft text) <new name of file>
+Create a text (or any type of file) in the directory = nano, vim, xdg (xdg is the linux default note reader writer similar to microsoft text) <new name of file>
 
-To get status of the repository = git status
- **(you must be inside repsitory directory for this to work) once executed if anything is changed it will let you know.**
+Get status of the repository = git status
+**(you must be inside repsitory directory for this to work) once executed if anything is changed it will let you know.**
 **A new or changed file would be indicated in red and be indicated as untracked file becasue ithas not been commited. Meaning the file may be saved but it's not officialy part of the repository. You have to tell git manually that you want that file to be a part of version control.**
 
-To add file to commit = git add <filename>  
+Add file to commit = git add <filename>  
 **Once the file is added to the commit the status will be different the file color will now be green as opposed to red.Also instead of showing "untracked files" it will show; "changes to be commitied"**
 
 Steps to take before finalizing commit
@@ -84,6 +84,22 @@ admin enterprise
 project
 admin:gps_key
 admin:ssh_signing_key
--
+
+Push file to existing repository for the first time = git remote add origin <url to repo>
+- Won't look like anything happens and will return to the command line that's simply becasue the origin was changed and nothing was actually pushed. Basically this sets the origin.
+
+Push file one origin is set/changed = git push origin <master> or <branchname>
+-enter username
+-enter private access token
+
+Add README.md from CLI and push to repo (markdown file):
+
+-Create README.md file in repository
+-Add content, save and close
+-Git add and git commit locally (see above for process)
+-Push to repo using git push origin command per above (do not need git remote command cause origin set unless origin needs to be changed/updatd)
+-  
+ 
+
 
   
