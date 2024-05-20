@@ -6,9 +6,9 @@ GIT is a version control utility
 
 Create git repository = git init new repository name
 
-ls -la = to list git directory
+List git directory and show changes = ls -l
 
-list contents of the directory = ls -l .git
+List contents of the directory = ls -l .git
 
 Create a text (or any type of file) in the directory = nano, vim, xdg (xdg is the linux default note reader writer similar to microsoft text) <new name of file>
 
@@ -36,7 +36,7 @@ Finalizing commit = git commit -m <"message about commit">
 
 Create a new branch = git branch <name of new branch>
 
-list branches = git branch
+List branches = git branch
  
 Switch to new or any branch = git checkout <name of branch> 
 
@@ -48,16 +48,16 @@ Reverting back to previos commit:
 **will show hash of reverted commit, then you can add message**
 
 Cloning:
-Pull down a repository exisiting in a remote (ex;github or gitlab) and save it locally
-It allows you to work on it locally then push it back to the remore (make sure to exit out of current repository, cd..) 
-Visit github page
-Look for the repository and click on in
-Look for code and click on it
-Select https (you can use ssh if you have it setup and know how)
-Copy link
-Go to terminal and enter git clone <paste link here>
-ls to see files
-From there you can cd into it and any files and work on the file/code locally
+-Pull down a repository exisiting in a remote (ex;github or gitlab) and save it locally
+ It allows you to work on it locally then push it back to the remore (make sure to exit out of current reposiTory, cd..) 
+-Visit github page
+-Look for the repository and click on in
+-Look for code and click on it
+-Select https (you can use ssh if you have it setup and know how)
+-Copy link
+-Go to terminal and enter git clone <paste link here>
+-ls to see files
+-From there you can cd into it and any files and work on the file/code locally
 
 Create repo in github from CLI (Command line interface) using curl command
 curl -u <"your github username"> https://api.github.com/user/repos -d '{"name";"Name of repo","public":"true"}'
@@ -86,7 +86,7 @@ admin:gps_key
 admin:ssh_signing_key
 
 Push file to existing repository for the first time = git remote add origin <url to repo>
-- Won't look like anything happens and will return to the command line that's simply becasue the origin was changed and nothing was actually pushed. Basically this sets the origin.
+-Won't look like anything happens and will return to the command line that's simply becasue the origin was changed and nothing was actually pushed. Basically this sets the origin.
 
 Push file one origin is set/changed = git push origin <master> or <branchname>
 -enter username
@@ -97,8 +97,8 @@ Add README.md from CLI and push to repo (markdown file):
 -Create README.md file in repository
 -Add content, save and close
 -Git add and git commit locally (see above for process)
--Push to repo using git push origin command per above (do not need git remote command cause origin set unless origin needs to be changed/updatd)
--  
+-Push to repo using git push origin command per above (do not need git remote command cause origin set unless  origin needs to be changed/updatd)
+
  
 
 
