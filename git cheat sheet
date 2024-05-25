@@ -86,7 +86,7 @@ project
 admin:gps_key
 admin:ssh_signing_key
 
-Push file to existing repository for the first time = git remote add origin <url to repo>
+Add/change repo url in order to push local repository to github repo = git remote add origin <url to repo>
 -Won't look like anything happens and will return to the command line that's simply becasue the origin was changed and nothing was actually pushed. Basically this sets the origin.
 
 Push file once origin is set/changed = git push origin <master> or <branchname>
