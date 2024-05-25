@@ -48,7 +48,7 @@ Reverting back to previos commit:
 
 Cloning:
 -Pull down a repository exisiting in a remote (ex;github or gitlab) and save it locally
- It allows you to work on it locally then push it back to the remore (make sure to exit out of current reposiTory, cd..) 
+ It allows you to work on it locally then push it back to the remote (make sure to exit out of current reposiTory, cd..) 
 -Visit github page
 -Look for the repository and click on in
 -Look for code and click on it
