@@ -8,6 +8,7 @@ Create git repository = git init new repository name
 List git directory and show changes = ls -l
 
 List contents of the directory = ls -l .git
+**use cd .git to navigate to .git directory and open files from there** 
 
 Create a text (or any type of file) in the directory = nano, vim, xdg (xdg is the linux default note reader writer similar to microsoft text) <new name of file>
 
