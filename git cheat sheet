@@ -16,8 +16,8 @@ Get status of the repository = git status
 **(you must be inside repsitory directory for this to work) once executed if anything is changed it will let you know.**
 **A new or changed file would be indicated in red and be indicated as untracked file becasue ithas not been commited. Meaning the file may be saved but it's not officialy part of the repository. You have to tell git manually that you want that file to be a part of version control.**
 
-Add file to commit = git add <filename>  
-**Once the file is added to the commit the status will be different the file color will now be green as opposed to red.Also instead of showing "untracked files" it will show; "changes to be commitied"**
+ADD staged file to commit = git add <filename>  | ADD all staged files to commit = git add -A
+**Once the file/s is added to the commit the status will be different the file color will now be green as opposed to red.Also instead of showing "untracked files" it will show; "changes to be commitied"**
 
 Steps to take before finalizing commit
 Enter information about the person working on the code using git config
