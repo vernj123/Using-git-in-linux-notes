@@ -83,7 +83,7 @@ user follow
 delete repo
 admin enterprise
 project
-admin:gps_key
+admin:gpg_key
 admin:ssh_signing_key
 
 Add remote origin url in order to push local repository to github repo = git remote add origin <url to repo>
